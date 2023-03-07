@@ -1,0 +1,63 @@
+.gpt3__whatgpt3 {
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 13% 24%, rgba(6, 73, 53, 0.95) 0%, rgba(12, 6, 46, 0.95) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 13% 24%, rgba(6, 73, 53, 0.95) 0%, rgba(12, 6, 46, 0.95) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 13% 24%, rgba(6, 73, 53, 0.95) 0%, rgba(12, 6, 46, 0.95) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 13% 24%, rgba(6, 73, 53, 0.95) 0%, rgba(12, 6, 46, 0.95) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 13% 24%, rgba(6, 73, 53, 0.95) 0%, rgba(12, 6, 46, 0.95) 100%);
+
+}
+
+.gpt3__whatgpt3-feature{
+    display: flex;
+}
+
+.gpt3__whatgpt3-feature .gpt3__features-container__feature{
+    margin: 0;   
+}
+
+.gpt3__whatgpt3-feature .gpt3__features-container__feature-text{
+    max-width: 700px; 
+}
+.gpt3__whatgpt3-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+.gpt3__whatgpt3-heading h1{
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    max-width: 510px;
+    font-family: var(--font-family);
+}
+.gpt3__whatgpt3-heading p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color:var(--color-subtext);
+    cursor: pointer;
+}
+.gpt3__whatgpt3-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
